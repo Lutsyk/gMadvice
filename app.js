@@ -33,3 +33,17 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function getAdvice(){
+    fetch(`${url}`+`${getRandomInt(0,200)}`).then(res => res.json()).then(data => {
+        console.log(data)
+        adviceArray.push(data)
+        let div = document.createElement("div");
+        div.innerHTML = `<p>${data.slip.advice}</p>` 
+        div.classList.add('advice')
+        adviceArea.appendChild(div);
+    });
+}
+
+
+
