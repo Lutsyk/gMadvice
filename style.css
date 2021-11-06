@@ -1,0 +1,47 @@
+body {
+    color: rgb(255, 255, 255);
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    background-color: royalblue;
+  }
+  
+  .advice-slip{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .advice{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px 4px;
+    padding: 5px 7px;
+    background-color: white;
+    min-width: 40%;
+    max-width: 40%;
+  }
+  
+  .advice p{
+    color: black
+  }
+  
+  .screen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.5s ease-out;
+  }
+  
+  input{
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
