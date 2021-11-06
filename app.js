@@ -45,5 +45,9 @@ function getAdvice(){
     });
 }
 
-
+function getSeveralAdvice(val){
+    for (let index = 0; index < val; index++) {
+        getAdvice()
+    }
+}
 
