@@ -18,3 +18,12 @@ You can only write numbers '!words don't fit' from 5 to 20
 After leaving the input, if you entered valid data, the submit button will be active and you get your advice!!!
 
 ![webSite](scrrenShots/5.png)
+
+### VersionWirhTranslator
+
+firstly - instal npm packege 
+concole -> npm install
+
+after run an http server
+
+[![video]({scrrenShots/2.png})]({+Translate/final.mov} "Link Title")
