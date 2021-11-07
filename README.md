@@ -26,4 +26,4 @@ concole -> npm install
 
 after run an http server
 
-[![video]({scrrenShots/2.png})]({+Translate/final.mov} "Link Title")
+[![Watch the video](scrrenShots/2.png)](https://youtu.be/oUJsCa5UOQ8)
